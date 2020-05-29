@@ -20,4 +20,4 @@ for (var i = 0; i < e.length; i++) {
   f.push(c);
 }
 console.log(f);
-//Ovdje sam koristio imperativnu paradigmu jer mi se nije dalo razmisljati kako bi rjesio nekom drugom paradigmom
+//Ovdje sam koristio imperativnu paradigmu jer sam prelijen i nije mi se dalo razmisljati kako bi rjesio nekom drugom paradigmom
