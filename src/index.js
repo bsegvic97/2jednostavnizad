@@ -9,15 +9,6 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 var e = [523, 487, 320, 199, 244, 516];
-var f = [];
-for (var i = 0; i < e.length; i++) {
-  var b = e[i];
-  var c = 0;
-  while (b > 0) {
-    c += b % 10;
-    b = Math.floor(b / 10);
-  }
-  f.push(c);
-}
+let f=e.map(number=>Math.floor(number/100)+Math.floor((number/10))%10+number%10)
 console.log(f);
-//Ovdje sam koristio imperativnu paradigmu jer sam prelijen i nije mi se dalo razmisljati kako bi rjesio nekom drugom paradigmom
+//Ovdje sam koristio funkcionalnu programsku paradigmu jer je jednostavna za napisati (troznamenkasti uvelike olaksavaju), a najljepse izgleda
